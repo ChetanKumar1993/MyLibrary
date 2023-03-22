@@ -36,6 +36,10 @@ s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 s.pod_target_xcconfig = {
     'SWIFT_VERSION' => '5.0'
 }
+s.pod_target_xcconfig = {
+    'CODE_SIGNING_REQUIRED' => 'NO'
+    'CODE_SIGNING_ALLOWED' => 'NO'
+}
 s.frameworks = 'UIKit', 'CoreLocation'
 
 s.ios.vendored_frameworks = 'JioAdsFramework/JioAdsFramework.framework'

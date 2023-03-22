@@ -42,6 +42,9 @@ s.pod_target_xcconfig = {
 s.pod_target_xcconfig = {
     'CODE_SIGNING_ALLOWED' => 'NO'
 }
+s.pod_target_xcconfig = {
+    'GENERATE_INFOPLIST_FILE' => 'YES'
+}
 s.frameworks = 'UIKit', 'CoreLocation'
 
 s.ios.vendored_frameworks = 'JioAdsFramework/JioAdsFramework.framework'

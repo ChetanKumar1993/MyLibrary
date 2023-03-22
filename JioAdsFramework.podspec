@@ -38,6 +38,8 @@ s.pod_target_xcconfig = {
 }
 s.pod_target_xcconfig = {
     'CODE_SIGNING_REQUIRED' => 'NO'
+}
+s.pod_target_xcconfig = {
     'CODE_SIGNING_ALLOWED' => 'NO'
 }
 s.frameworks = 'UIKit', 'CoreLocation'
